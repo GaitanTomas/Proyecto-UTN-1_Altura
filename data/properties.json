@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Astor",
+    "location": "San Telmo",
+    "description": "Departamentos de 1 a 4 ambientes en una de las zonas más vibrantes de Buenos Aires. Astor San Telmo combina diseño moderno, amenities premium y la esencia histórica del barrio. Ideal para vivir o invertir, con locales comerciales, cocheras y jardines privados que iluminan todas las unidades.",
+    "image": "assets/img/properties/astor-san_telmo.jpg"
+  },
+  {
+    "name": "Forum",
+    "location": "Puerto Norte",
+    "description": "Departamentos premium frente al río Paraná con amenities de primer nivel. Forum Puerto Norte ofrece unidades exclusivas en un entorno verde de más de 10.000 m². Incluye cocheras, locales, oficinas, áreas recreativas y guardería náutica. Una inversión segura en la zona más moderna de Rosario.",
+    "image": "assets/img/properties/forum-puerto_norte.jpg"
+  },
+  {
+    "name": "Venice",
+    "location": "Tigre",
+    "description": "Viviendas modernas rodeadas de naturaleza y agua en un entorno único. Venice Tigre es un barrio cerrado de 32 hectáreas con salida al río Luján, espacios verdes, arquitectura de diseño y estilo de vida náutico. Ideal para quienes buscan seguridad, tranquilidad y contacto con la naturaleza a solo minutos de CABA.",
+    "image": "assets/img/properties/venice-tigre.jpg"
+  },
+  {
+    "name": "Forum",
+    "location": "Puerto Madero",
+    "description": "Viviendas de alta gama en el corazón del Dique IV, con diseño arquitectónico de vanguardia. Forum Puerto Madero ofrece departamentos espaciosos con patio central, amenities de lujo y una ubicación privilegiada en la zona más exclusiva de Buenos Aires. Ideal para quienes buscan confort, seguridad y estilo.",
+    "image": "assets/img/properties/forum-puerto_madero.jpg"
+  }
+]
