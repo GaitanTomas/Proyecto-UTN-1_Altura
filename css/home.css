@@ -91,6 +91,22 @@
   background-color: var(--color-hover);
 }
 
+/* nav scroll js */
+.header__nav-scrolled {
+  color: var(--color-hover);
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header__btn-access-scrolled{
+  border: 1px solid var(--color-hover);
+}
+
+.header__btn-access-scrolled:hover{
+  color: var(--color-principal-claro);
+}
+
 /* header content */
 .header__content{
   display: flex;
@@ -109,6 +125,7 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.4em;
+  filter: drop-shadow(0 0 0.7rem var(--color-acento));
 }
 
 .header__description{
