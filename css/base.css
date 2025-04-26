@@ -10,6 +10,11 @@
   text-decoration: none;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -36,4 +41,3 @@ body {
   color: var(--color-principal-claro);
   background-color: var(--color-principal-oscuro);
 }
-
