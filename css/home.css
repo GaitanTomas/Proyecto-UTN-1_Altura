@@ -131,7 +131,7 @@
 .header__description{
   margin-top: 0.5em;
   margin-right: -0.4em;
-  font-size: 1.2em;
+  font-size: clamp(0.8em, 1.5vw, 1.2em);
   font-family: var(--fuente-secundaria);
   font-weight: 200;
   text-transform: uppercase;
