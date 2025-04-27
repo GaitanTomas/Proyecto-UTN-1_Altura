@@ -74,7 +74,7 @@
   height: 320px;
   border-radius: 10px;
   background-color: var(--color-principal-claro);
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
   color: var(--color-hover);
 }
 
@@ -110,16 +110,18 @@
 }
 
 .card__btn{
-  padding: 5px 10px;
-  font-weight: 500;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 300;
   color: var(--color-principal-claro);
+  text-transform: uppercase;
   background-color: var(--color-acento);
 }
 
 .card__btn:hover{
   background-color: var(--color-hover);
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* cards text aside */

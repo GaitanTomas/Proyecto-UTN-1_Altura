@@ -26,9 +26,9 @@ html {
   --color-principal-oscuro: #1E1E24;
   --color-secundario-oscuro: #3C3C44;
   --color-principal-claro: #FFFFFF;
-  --texto-secundario-claro: #b5b7b9;
+  --color-secundario-claro: #949494;
   --color-acento: #2a2a5c;
-  --color-hover: #34346e;
+  --color-hover: #393982;
   /* fuentes */
   --fuente-principal: 'Montserrat', sans-serif; /* 700 a 800*/
   --fuente-secundaria: 'Poppins', sans-serif; /* 300 a 500 */

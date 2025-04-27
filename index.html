@@ -39,11 +39,11 @@
         <div class="card-container">
           <!-- card 1 -->
           <div class="card">
-            <img src="/assets/img/properties/astor-san_telmo.jpg" alt="astor san telmo" class="card__img">
+            <img src="assets/img/properties/astor-san_telmo.jpg" alt="astor san telmo" class="card__img">
             <div class="card__info">
               <h3 class="card__title">Astor</h3>
               <p class="card__description">Departamentos de 1 a 4 ambientes en una de las zonas más vibrantes de Buenos Aires. Astor San Telmo combina diseño moderno, amenities premium y la esencia histórica del barrio. Ideal para vivir o invertir, con locales comerciales, cocheras y jardines privados que iluminan todas las unidades.</p>
-              <a href="#" class="card__btn">Ver propiedad</a>
+              <a href="#" class="card__btn">Ver</a>
             </div>
           </div>
           <div class="cards__aside-text-container">
@@ -54,11 +54,11 @@
         <div class="card-container">
           <!-- card 2 -->
           <div class="card">
-            <img src="/assets/img/properties/forum-puerto_norte.jpg" alt="forum puerto norte" class="card__img">
+            <img src="assets/img/properties/forum-puerto_norte.jpg" alt="forum puerto norte" class="card__img">
             <div class="card__info">
               <h3 class="card__title">Forum</h3>
               <p class="card__description">Departamentos premium frente al río Paraná con amenities de primer nivel. Forum Puerto Norte ofrece unidades exclusivas en un entorno verde de más de 10.000 m². Incluye cocheras, locales, oficinas, áreas recreativas y guardería náutica. Una inversión segura en la zona más moderna de Rosario.</p>
-              <a href="#" class="card__btn">Ver propiedad</a>
+              <a href="#" class="card__btn">Ver</a>
             </div>
           </div>
           <div class="cards__aside-text-container">
@@ -69,11 +69,11 @@
         <div class="card-container">
           <!-- card 3 -->
           <div class="card">
-            <img src="/assets/img/properties/venice-tigre.webp" alt="Venice Tigre" class="card__img">
+            <img src="assets/img/properties/venice-tigre.webp" alt="Venice Tigre" class="card__img">
             <div class="card__info">
               <h3 class="card__title">Venice</h3>
               <p class="card__description">Viviendas modernas rodeadas de naturaleza y agua en un entorno único. Venice Tigre es un barrio cerrado de 32 hectáreas con salida al río Luján, espacios verdes, arquitectura de diseño y estilo de vida náutico. Ideal para quienes buscan contacto con la naturaleza cerca de CABA.</p>
-              <a href="#" class="card__btn">Ver propiedad</a>
+              <a href="#" class="card__btn">Ver</a>
             </div>
           </div>
           <div class="cards__aside-text-container">
@@ -84,11 +84,11 @@
         <div class="card-container">
           <!-- card 4 -->
           <div class="card">
-            <img src="/assets/img/properties/forum-puerto_madero.jpg" alt="Forum puerto madero" class="card__img">
+            <img src="assets/img/properties/forum-puerto_madero.jpg" alt="Forum puerto madero" class="card__img">
             <div class="card__info">
               <h3 class="card__title">Forum</h3>
               <p class="card__description">Viviendas de alta gama en el corazón del Dique IV, con diseño arquitectónico de vanguardia. Forum Puerto Madero ofrece departamentos espaciosos con patio central, amenities de lujo y una ubicación privilegiada en la zona más exclusiva de Buenos Aires. Ideal para quienes buscan confort, seguridad y estilo.</p>
-              <a href="#" class="card__btn">Ver propiedad</a>
+              <a href="#" class="card__btn">Ver</a>
             </div>
           </div>
           <div class="cards__aside-text-container">
@@ -111,6 +111,66 @@
         <img src="assets/img/gallery/horizontal-2.webp" alt="imagen 6" class="gallery__img">
         <img src="assets/img/gallery/vertical-3.webp" alt="imagen 7" class="gallery__img">
       </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="contact__title">Contacto</h2>
+      <form class="contact__form" action="#" method="POST">
+        <div class="form__group-first-4">
+          <!-- grupo 1 -->
+          <div class="form__group">
+            <div class="form__inputs-container">
+              <label for="name" class="form__label">Nombre</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form__inputs-container">
+              <label for="number" class="form__label">Telefono</label>
+              <input type="tel" id="number" name="number" class="form__input" placeholder="Escribe tu telefono" required>
+            </div>
+          </div>
+          <!-- grupo 2 -->
+          <div class="form__group">
+            <div class="form__inputs-container">
+              <label for="email" class="form__label">Mail</label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="Escribe tu mail" required>
+            </div>
+            <div class="form__inputs-container">
+              <label for="motive" class="form__label">Motivo de contacto</label>
+              <select id="motive" name="motive" class="form__select" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="consulta">Consulta general</option>
+                <option value="reclamo">Soy inversor</option>
+                <option value="sugerencia">Quiero comprar una propiedad</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- grupo 3 -->
+        <div class="form__group">
+          <div class="form__textarea-container">
+            <label for="textarea" class="form__label">Dejanos tu mensaje</label>
+            <textarea id="textarea" name="textarea" class="form__textarea" placeholder="Deja tu comentario..." required></textarea>
+          </div>
+          <div class="form__radio-container">
+            <label class="form__label">¿Cómo preferís que te contactemos?</label>
+            <div class="radios__container">
+              <div class="radio-container">
+                <input type="radio" id="option2" name="source" value="mail" class="form__radio" required>
+                <label for="option2" class="form__radio-label">Correo</label>
+              </div>
+              <div class="radio-container">
+                <input type="radio" id="option1" name="source" value="phone" class="form__radio" required>
+                <label for="option1" class="form__radio-label">Telefono</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- botones -->
+        <div class="form__btn-container">
+          <button type="reset" class="form__btn reset">Borrar</button>
+          <button type="submit" class="form__btn">Enviar</button>
+        </div>
+      </form>
     </section>
   </main>
   <!-- FOOTER -->
