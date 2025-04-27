@@ -7,8 +7,7 @@
   height: fit-content;
   padding: 64px 54px;
   gap: 68px;
-  background-color: #141824;
-  background-image: url('../assets/img/properties/background.jpg');
+  background: linear-gradient(to bottom, transparent, rgba(20, 24, 36, 1)), url('../assets/img/properties/background.jpg');
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
