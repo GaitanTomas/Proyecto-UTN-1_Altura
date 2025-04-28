@@ -57,7 +57,7 @@ i{
 
 /* logo */
 .footer__logo{
-  width: 240px !important;
+  width: 240px;
   filter: invert(1);
   opacity: 0.6;
 }
@@ -71,4 +71,14 @@ i{
   font-weight: 300;
   color: var(--color-secundario-claro);
   text-align: center;
+}
+
+.me{
+  color: var(--color-secundario-claro);
+  font-weight: 700;
+}
+
+.me:hover{
+  color: var(--color-hover);
+  transition: all 0.3s ease-in-out;
 }
