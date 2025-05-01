@@ -26,6 +26,12 @@
           <li class="header__nav-item"><a href="#contact">Contacto</a></li>
         </ul>
         <a class="header__btn-access" href="index.html">Acceder</a>
+        <!-- Botón hamburguesa -->
+        <div class="header__hamburger" onclick="toggleMenu()">
+          <span class="header__hamburger-span"></span>
+          <span class="header__hamburger-span"></span>
+          <span class="header__hamburger-span"></span>
+        </div>
       </nav>
       <div class="header__content">
         <h1 class="header__title">Altura</h1>
@@ -123,7 +129,7 @@
           <div class="form__group">
             <div class="form__inputs-container">
               <label for="name" class="form__label">Nombre</label>
-              <input type="text" id="name" name="name" class="form__input" placeholder="Escribe tu nombre" required>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Escribe tu nombre" required autocomplete="off">
             </div>
             <div class="form__inputs-container">
               <label for="number" class="form__label">Telefono</label>
@@ -134,7 +140,7 @@
           <div class="form__group">
             <div class="form__inputs-container">
               <label for="email" class="form__label">Mail</label>
-              <input type="email" id="email" name="email" class="form__input" placeholder="Escribe tu mail" required>
+              <input type="email" id="email" name="email" class="form__input" placeholder="Escribe tu mail" required autocomplete="off">
             </div>
             <div class="form__inputs-container">
               <label for="motive" class="form__label">Motivo de contacto</label>
@@ -157,12 +163,12 @@
             <label class="form__label">¿Cómo preferís que te contactemos?</label>
             <div class="radios__container">
               <div class="radio-container">
-                <input type="radio" id="option2" name="source" value="mail" class="form__radio" required>
-                <label for="option2" class="form__radio-label">Correo</label>
+                <input type="radio" id="option1" name="source" value="mail" class="form__radio" required>
+                <label for="option1" class="form__radio-label">Correo</label>
               </div>
               <div class="radio-container">
-                <input type="radio" id="option1" name="source" value="phone" class="form__radio" required>
-                <label for="option1" class="form__radio-label">Telefono</label>
+                <input type="radio" id="option2" name="source" value="phone" class="form__radio" required>
+                <label for="option2" class="form__radio-label">Telefono</label>
               </div>
             </div>
           </div>
@@ -223,8 +229,6 @@
   </footer>
 <!-- SCRIPTS -->
 <script src="js/nav.js"></script>
-<script src="js/cards.js"></script>
-<script src="js/form.js"></script>
 <script src="https://kit.fontawesome.com/a7a6fc7f32.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>

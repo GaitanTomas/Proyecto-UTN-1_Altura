@@ -184,3 +184,47 @@ input:focus::placeholder, textarea:focus::placeholder {
   background-color: #64646e;
   transition: all 0.3s ease-in-out;
 }
+
+/* Responsive */
+
+/* max-width: 950px */
+@media (max-width: 950px) {
+  #contact {
+    padding: 40px 20px;
+  }
+
+  .form__group-first-4 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form__input, .form__select {
+    width: 100%;
+    height: 40px;
+  }
+
+  .form__textarea-container {
+    width: 100%;
+  }
+
+  .form__textarea-container textarea {
+    height: 150px;
+  }
+}
+
+/* max-width: 480px */
+@media (max-width: 480px) {
+  #contact {
+    padding: 30px 10px;
+  }
+
+  .form__input, .form__select {
+    width: 100%;
+    height: 40px;
+    font-size: 0.9em;
+  }
+
+  .form__textarea-container textarea {
+    height: 120px;
+  }
+}

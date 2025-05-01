@@ -12,3 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Mobile menu toggle
+function toggleMenu() {
+  document.querySelector('.header__nav-list').classList.toggle('active');
+}
