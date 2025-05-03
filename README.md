@@ -11,8 +11,14 @@ El mismo representa una inmobiliaria ficticia llamada **ALTURA**, dedicada a la 
 ```
 Proyecto-UTN-1_Altura/
 ├── assets/
-│   ├── icon/           # Icono del sitio
-│   └── img/            # Imágenes del sitio
+│   ├── icon/           
+│   │     └── web-icon.png    # Icono del sitio
+│   └── img/            
+│        ├── header/          # Imágenes del header
+│        ├── properties/      # Imágenes de sección properties
+│        ├── gallery/         # Imágenes de la galería
+│        ├── footer/          # Imágenes del footer
+│        └── meta.png         # Imagen para el meta        
 ├── css/
 │   ├── base.css        # Variables, reset, estilos globales
 │   ├── home.css        # Estilos del home
